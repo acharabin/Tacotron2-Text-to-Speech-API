@@ -15,7 +15,9 @@ app = Flask(__name__)
 
 @app.route('/predict', methods=['POST'])
 def tts():    
-    text = request.form['text']
+    
+    #text = request.form['text']
+    text = request.get_json()['text']
 
     if not text:
         return
