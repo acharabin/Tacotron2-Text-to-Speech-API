@@ -8,7 +8,7 @@ basedir='__Tacotron2/'
 
 parser = argparse.ArgumentParser(prog = 'ProgramName', description = 'What the program does',epilog = 'Text at the bottom of help')
 args = parser.parse_args()
-args.tacotron2=f"""models/checkpoint_Tacotron2_910.pt"""
+args.tacotron2=f"""models/checkpoint_Tacotron2_1000.pt"""
 args.vocoder='univnet'
 # args.vocoder='WaveGlow'
 # args.waveglow=f"""models/checkpoint_WaveGlow_700.pt"""
