@@ -5,8 +5,8 @@ configparser
 argparse
 numpy
 pandas
-torch
-#if fails due to RAM and/or disk space can run python3 -m pip install --no-cache-dir torch==1.9.1 --target / --upgrade
+torch==1.13.1
+#if fails due to RAM and/or disk space can run python3 -m pip install --no-cache-dir torch==1.13.1 --target / --upgrade
 # Other packages should be installed without specifying the --target param
 git+https://github.com/NVIDIA/dllogger.git
 boto3
