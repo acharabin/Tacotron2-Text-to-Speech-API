@@ -7,7 +7,7 @@ import numpy as np
 import torch
 from flask import Flask, jsonify, request
 from DeepLearningExamples.PyTorch.SpeechSynthesis.Tacotron2 import inference
-from config import args, parser
+from config.config import args, parser
 
 app = Flask(__name__)
 
