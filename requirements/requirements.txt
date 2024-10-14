@@ -9,4 +9,3 @@ torch
 #if fails on CPU can run the following to install CPU version: python3 -m pip install --no-cache-dir torch==1.9.1 --target / --upgrade
 boto3
 awscli
-flask
