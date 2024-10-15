@@ -5,7 +5,7 @@ API developed using the Flask framework to serve inferences from Tacotron2 and U
 Models are not provided in the repository. AC voice Tacotron2 and Univnet models can be downloaded [here](https://drive.google.com/drive/folders/1Mp3I33caVRm7YkGYd5z3TXNdgIUF10U-) and moved into the models/ directory. As the config.py file already references these models, no adjustment to the config.py file is required for the API to serve inference requests. The API is compatible with other Tacotron2 and Univnet/WaveGlow models. The config.py file must been adjusted to reference the names and directories of new models. 
 
 ## Hardware Notes
-50GB+ of RAM and 50GB+ of disk space are recommended for replicating the implementation. Inference is set to run in CPU mode hence no GPUs are required.
+50 GB + of RAM and 25 - 50 GB of disk space are recommended for replicating the implementation. Inference is set to run in CPU mode hence no GPUs are required.
 
 
 
