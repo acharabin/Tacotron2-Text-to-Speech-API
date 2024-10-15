@@ -1,0 +1,2 @@
+# Restart App
+0 0,8,16 * * * cd /root/__tts && bash scripts/run_app.sh
